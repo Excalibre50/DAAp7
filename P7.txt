@@ -1,0 +1,13 @@
+Berapa lama brute force pada TSP dengan 20 titik?​
+
+Menghitung semua kemungkinan rute untuk TSP dengan 20 titik menggunakan metode brute force akan memakan waktu yang sangat lama. Jumlah kemungkinan rutenya sangat besar, sehingga metode ini tidak efisien.
+
+Lebih cepat mana brute force atau greedy algorithm pada TSP dengan 20 titik?​
+
+Untuk masalah TSP dengan 20 titik:
+Algoritma Greedy: Lebih cepat karena hanya mempertimbangkan pilihan terdekat pada setiap langkah, namun tidak selalu menghasilkan solusi terbaik.
+Algoritma Brute Force: Lebih lambat karena mencoba semua kemungkinan rute, tetapi dijamin menemukan solusi optimal.
+
+Kesimpulan:
+Pilih Greedy jika waktu komputasi adalah prioritas utama dan solusi yang cukup baik sudah memadai.
+Pilih Brute Force jika solusi optimal mutlak diperlukan, namun perhatikan waktu komputasi yang sangat lama, terutama untuk masalah dengan banyak titik.
